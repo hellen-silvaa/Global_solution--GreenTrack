@@ -1,7 +1,7 @@
 # GreenTrack - Monitoramento de Produção e Armazenamento de Hidrogênio Verde
 
-## Descrição do Projeto
-A **GreenTrack** é uma solução inovadora desenvolvida para monitorar em tempo real o processo de produção e armazenamento de hidrogênio verde. Utilizando a plataforma ESP32 e sensores, a solução integra dispositivos IoT com comunicação MQTT para garantir a segurança e eficiência da produção, prevenindo falhas operacionais e acidentes.
+### Descrição do Projeto
+A **GreenTrack** é uma solução inovadora desenvolvida para monitorar em tempo real o processo de produção e armazenamento de hidrogênio verde. Utilizando ESP32 e sensores, a solução integra dispositivos IoT com comunicação MQTT para garantir a segurança e eficiência da produção, prevenindo falhas operacionais e acidentes. Além disso, emite alertas via WhatsApp para melhorar a comunicação e aumentar a eficiência.
 
 ## Objetivo
 A solução visa resolver os desafios encontrados na produção e armazenamento de hidrogênio verde, principalmente no que se refere à eletrolise da água, controle de temperatura e vazamentos de CO₂. A **GreenTrack** oferece um sistema de monitoramento inteligente baseado em sensores, conectado a um dashboard, e com alertas via WhatsApp.
@@ -16,34 +16,68 @@ A solução visa resolver os desafios encontrados na produção e armazenamento 
 
 ## Requisitos
 
-### Hardware
-- **ESP32**
-- **Sensor de temperatura DHT22**
-- **Sensor de luminosidade LDR**
-- **Comunicação MQTT**
+## Componentes
+- **ESP32** 
+- **Sensor de temperatura DHT22** (representando o Termoapar)
+- **Sensor de luminosidade LDR** (representando o Fluxômetro)
+- **Jumpers** 
 
-### Software
-- **ESP32** para programação do ESP32
-- **Broker MQTT** (ex: HiveMQ)
-- **Biblioteca MQTT** para ESP32 (PubSubClient)
-- **Plataforma de desenvolvimento para dashboard** (Node-RED)
-- **WhatsApp API** para envio de alertas
+## Dependências
+- *C++*
+- *IoT (Internet das Coisas)*
+- *Software Wokwi*
+- *Node-RED*
+- *Servidor Protocolo MQTT*
+- *CallMeBot API* 
 
+   
 ## Como Usar
 
-### Configuração do Hardware:
-1. Conecte o DHT22 ao ESP32 para medir a temperatura.
-2. Conecte o LDR ao ESP32 para monitorar o fluxo de hidrogênio.
+## Instruções de Uso
+1. Instale o [Node-RED](https://nodered.org/docs/getting-started/local).
+2. Configure o  [MQTT](https://www.hivemq.com/demos/websocket-client/?) no Node-RED para receber os dados dos tópicos.
+3. Execute o projeto no Wokwi e conecte ao servidor HiveMQ.
 
-### Configuração do Software:
-1. Abra o código fonte no Arduino IDE e carregue no ESP32.
-2. Configure o broker MQTT e os tópicos para comunicar os dados dos sensores.
+## Requisitos
+- ESP32 com conectividade WiFi
+- Conhecimento básico em Node-RED e MQTT
+- Acesso ao servidor MQTT [HiveMQ](https://www.hivemq.com/demos/websocket-client/?)
 
-### Dashboard:
-1. Crie um dashboard utilizando ferramentas como **Node-RED** ou **Grafana** para visualizar as medições em tempo real.
+
+## Fluxo Node-RED
+![image](https://github.com/user-attachments/assets/a75bd9a5-6da4-4479-a01e-c8a41843045b)
 
 ### Monitoramento e Alertas:
-1. Configure alertas automáticos via **WhatsApp API** para receber notificações em caso de falhas.
+
+1. **Configure alertas automáticos via CallMeBot API** para receber notificações em caso de falhas.
+
+2. **Obtenha a chave da API (apikey) do bot antes de usar a API:**
+
+3. Adicione o número de telefone **+34 644 95 42 75** aos seus contatos telefônicos (nomeie como preferir).
+
+4. Envie a seguinte mensagem para o novo contato criado:  
+   **"I allow callmebot to send me messages"** (usando o WhatsApp).
+
+5. Aguarde até receber a mensagem:  
+   **"API Activated for your phone number. Your APIKEY is 123123"** do bot.
+
+A mensagem do WhatsApp do bot conterá a chave de API necessária para enviar mensagens usando a API. Após receber a confirmação, você poderá enviar mensagens de texto usando a API.
+
+6. **Configuração de alerta no Node-RED:**
+
+   Após configurar a chave de API, você pode usar o seguinte código no Node-RED para enviar alertas quando a temperatura ultrapassar o limite:
+![image](https://github.com/user-attachments/assets/a6a0085a-e9bf-4b60-8527-627951380b36)
+
+Substitua os seguintes campos:
+
+SEU_NUMERO_DE_TELEFONE: Coloque o seu número de telefone com o código do país (exemplo: +55 11 12345678).
+
+SEU_APIKEY: Substitua pela chave de API que você recebeu do bot.
+
+Isso permitirá que o seu sistema envie automaticamente alertas via WhatsApp sempre que a temperatura ultrapassar o limite definido.
+![image](https://github.com/user-attachments/assets/700f234b-8b8b-440f-a1e0-d7e62cf65331)
+
+
 
 ##  Simulação Wokwi
 [Clique aqui para acessar a simulação Wokwi](https://wokwi.com/projects/414748088999110657)
@@ -56,9 +90,6 @@ A **GreenTrack** tem como objetivo reduzir os custos de monitoramento em até 80
 
 ## Conclusão
 A **GreenTrack** é uma solução essencial para garantir o monitoramento seguro da produção e armazenamento de hidrogênio verde. Ao integrar **IoT** e **MQTT**, o projeto proporciona uma forma mais eficiente de gerenciar o processo, prevenindo falhas, aumentando a segurança e contribuindo para a sustentabilidade do setor.
-
-## Licença
-Este projeto está licenciado sob a **Licença MIT**. Veja o arquivo `LICENSE` para mais informações.
 
 ## Alunos
 - Alexia Ramalho - 558385
