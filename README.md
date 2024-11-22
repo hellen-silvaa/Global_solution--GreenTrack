@@ -46,7 +46,8 @@ A solução visa resolver os desafios encontrados na produção e armazenamento 
 1. Configure alertas automáticos via **WhatsApp API** para receber notificações em caso de falhas.
 
 ## Link para Simulação Wokwi
-[Clique aqui para acessar a simulação Wokwi](https://wokwi.com/projects)
+[Clique aqui para acessar a simulação Wokwi](https://wokwi.com/projects/414748088999110657)
+![image](https://github.com/user-attachments/assets/6d4b0dca-4ba7-4b54-a130-14976cc46fb9)
 
 ## Resultados Esperados e Impacto
 A **GreenTrack** tem como objetivo reduzir os custos de monitoramento em até 80% e diminuir falhas e acidentes de produção em 69%. Com um sistema de monitoramento eficiente, espera-se melhorar a segurança do processo de produção e armazenamento de hidrogênio verde, tornando-o mais sustentável e escalável.
