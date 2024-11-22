@@ -6,16 +6,13 @@ A **GreenTrack** é uma solução inovadora desenvolvida para monitorar em tempo
 ## Objetivo
 A solução visa resolver os desafios encontrados na produção e armazenamento de hidrogênio verde, principalmente no que se refere à eletrolise da água, controle de temperatura e vazamentos de CO₂. A **GreenTrack** oferece um sistema de monitoramento inteligente baseado em sensores, conectado a um dashboard, e com alertas via WhatsApp.
 
-
 ## Funcionalidades
 - **Monitoramento em tempo real**: Uso de sensores para medir temperatura (DHT22) e fluxo de hidrogênio (LDR).
 - **Manutenção preditiva**: Análise de dados para identificar falhas potenciais e sugerir manutenções.
 - **Alertas automatizados**: Envio de alertas sobre falhas e anomalias para o dashboard e via WhatsApp.
 - **Dashboard inteligente**: Interface visual para acompanhar as métricas e status dos sistemas.
 
-
 ## Requisitos
-
 ## Componentes
 - **ESP32** 
 - **Sensor de temperatura DHT22** (representando o Termoapar)
@@ -32,7 +29,6 @@ A solução visa resolver os desafios encontrados na produção e armazenamento 
 
    
 ## Como Usar
-
 ## Instruções de Uso
 1. Instale o [Node-RED](https://nodered.org/docs/getting-started/local).
 2. Configure o  [MQTT](https://www.hivemq.com/demos/websocket-client/?) no Node-RED para receber os dados dos tópicos.
@@ -42,7 +38,6 @@ A solução visa resolver os desafios encontrados na produção e armazenamento 
 - ESP32 com conectividade WiFi
 - Conhecimento básico em Node-RED e MQTT
 - Acesso ao servidor MQTT [HiveMQ](https://www.hivemq.com/demos/websocket-client/?)
-
 
 ## Fluxo Node-RED
 ![image](https://github.com/user-attachments/assets/a75bd9a5-6da4-4479-a01e-c8a41843045b)
@@ -78,7 +73,6 @@ Isso permitirá que o seu sistema envie automaticamente alertas via WhatsApp sem
 ![image](https://github.com/user-attachments/assets/700f234b-8b8b-440f-a1e0-d7e62cf65331)
 
 
-
 ##  Simulação Wokwi
 [Clique aqui para acessar a simulação Wokwi](https://wokwi.com/projects/414748088999110657)
 
@@ -93,6 +87,7 @@ A **GreenTrack** tem como objetivo reduzir os custos de monitoramento em até 80
 
 ## Conclusão
 A **GreenTrack** é uma solução essencial para garantir o monitoramento seguro da produção e armazenamento de hidrogênio verde. Ao integrar **IoT** e **MQTT**, o projeto proporciona uma forma mais eficiente de gerenciar o processo, prevenindo falhas, aumentando a segurança e contribuindo para a sustentabilidade do setor.
+Para saber mais sobre o nosso projeto, assista ao nosso [vídeo explicativo](https://youtu.be/7OyubT0hV-Q?feature=shared) e visite o [nosso site]() ao fazer o cadastro e login, você terá acesso a todos os dashboards.
 
 ## Alunos
 - Alexia Ramalho - 558385
