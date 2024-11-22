@@ -88,7 +88,7 @@ A **GreenTrack** tem como objetivo reduzir os custos de monitoramento em até 80
 
 ## Conclusão
 A **GreenTrack** é uma solução essencial para garantir o monitoramento seguro da produção e armazenamento de hidrogênio verde. Ao integrar **IoT** e **MQTT**, o projeto proporciona uma forma mais eficiente de gerenciar o processo, prevenindo falhas, aumentando a segurança e contribuindo para a sustentabilidade do setor.
-Para saber mais sobre o nosso projeto, assista ao nosso [vídeo explicativo](https://youtu.be/7OyubT0hV-Q?feature=shared) e visite o [nosso site]() ao fazer o cadastro e login, você terá acesso a todos os dashboards.
+Para saber mais sobre o nosso projeto, assista ao nosso [vídeo explicativo](https://youtu.be/7OyubT0hV-Q?feature=shared) e visite o [nosso site](https://green-track-rho.vercel.app/) ao fazer o cadastro e login, você terá acesso a todos os dashboards.
 
 ## Alunos
 - Alexia Ramalho - 558385
