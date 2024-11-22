@@ -84,6 +84,9 @@ Isso permitirá que o seu sistema envie automaticamente alertas via WhatsApp sem
 
 ![image](https://github.com/user-attachments/assets/1b5865f0-e46e-4b02-8246-74fb7ee5fc41)
 
+Dados exibidos no dashboard do Node-RED:
+![image](https://github.com/user-attachments/assets/bc255ad0-93e8-485b-963b-c8d5d49c579f)
+
 
 ## Resultados Esperados e Impacto
 A **GreenTrack** tem como objetivo reduzir os custos de monitoramento em até 80% e diminuir falhas e acidentes de produção em 69%. Com um sistema de monitoramento eficiente, espera-se melhorar a segurança do processo de produção e armazenamento de hidrogênio verde, tornando-o mais sustentável e escalável.
