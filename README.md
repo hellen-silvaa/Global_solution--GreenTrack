@@ -79,6 +79,7 @@ Isso permitirá que o seu sistema envie automaticamente alertas via WhatsApp sem
 ![image](https://github.com/user-attachments/assets/1b5865f0-e46e-4b02-8246-74fb7ee5fc41)
 
 Dados exibidos no dashboard do Node-RED:
+
 ![image](https://github.com/user-attachments/assets/bc255ad0-93e8-485b-963b-c8d5d49c579f)
 
 
