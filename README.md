@@ -6,6 +6,7 @@ A **GreenTrack** é uma solução inovadora desenvolvida para monitorar em tempo
 ## Objetivo
 A solução visa resolver os desafios encontrados na produção e armazenamento de hidrogênio verde, principalmente no que se refere à eletrolise da água, controle de temperatura e vazamentos de CO₂. A **GreenTrack** oferece um sistema de monitoramento inteligente baseado em sensores, conectado a um dashboard, e com alertas via WhatsApp.
 
+
 ## Funcionalidades
 - **Monitoramento em tempo real**: Uso de sensores para medir temperatura (DHT22) e fluxo de hidrogênio (LDR).
 - **Manutenção preditiva**: Análise de dados para identificar falhas potenciais e sugerir manutenções.
