@@ -11,7 +11,7 @@ A solução visa resolver os desafios encontrados na produção e armazenamento 
 - **Monitoramento em tempo real**: Uso de sensores para medir temperatura (DHT22) e fluxo de hidrogênio (LDR).
 - **Manutenção preditiva**: Análise de dados para identificar falhas potenciais e sugerir manutenções.
 - **Alertas automatizados**: Envio de alertas sobre falhas e anomalias para o dashboard e via WhatsApp.
-- **Dashboard inteligente**: Interface visual para acompanhar as métricas e status dos sistemas de produção e armazenamento.
+- **Dashboard inteligente**: Interface visual para acompanhar as métricas e status dos sistemas.
 
 
 ## Requisitos
